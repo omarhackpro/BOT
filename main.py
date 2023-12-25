@@ -1,6 +1,6 @@
 import time
 import datetime
-import telebot
+import telebo
 import requests
 import re
 import codecs
