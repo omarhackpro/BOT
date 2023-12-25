@@ -1369,7 +1369,6 @@ def handle_text_message(message):
             elif setlan == "ar":
                bot.send_message(message.chat.id, f"من فضلك انتظر\n ({timer} sec)")
         else:
-           reply(message)
            for i in range(5, -1, -1):
               timer = i
               time.sleep(1)
