@@ -1376,4 +1376,4 @@ def handle_text_message(message):
               timer = i
               time.sleep(1)
 
-bot.polling()
+bot.polling(none_stop=True)
