@@ -1010,4 +1010,4 @@ def handle_text_message(message):
 
 
 
-bot.polling()
+bot.polling(none_stop=True)
