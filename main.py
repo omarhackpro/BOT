@@ -9,7 +9,7 @@ from telebot.types import InlineKeyboardMarkup, InlineKeyboardButton
 import urllib.parse 
 from urllib.parse import unquote
 
-bot = telebot.TeleBot("6923585464:AAHCOf8QQtiyPvmX4B_X5PFJhu82VfkwPrA")
+bot = telebot.TeleBot("6923585464:AAHCOf8QQtiyPvmX4B_X5PFJhu82VfkwPrA", threaded=True)
 setlan = None
 usernum = 0
 timer = 0
