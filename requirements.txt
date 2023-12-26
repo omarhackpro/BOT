@@ -62,3 +62,4 @@ wcwidth==0.2.12
 websockets==9.1
 wsproto==1.2.0
 zipp==3.17.0
+gunicorn
